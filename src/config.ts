@@ -1,10 +1,10 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://adso-blog.pages.dev/", // replace this with your deployed domain
+  website: "https://adso-blog.vercel.app/", // replace this with your deployed domain
   author: "Fabian Andres Parra Sanchez",
   desc: "Blog para el registro del aprendizaje de la carrera de Análisis y Desarrollo de Software.",
-  title: "ADSO",
+  title: "ADSO Blog",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 8,
