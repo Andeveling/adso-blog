@@ -7,7 +7,7 @@ export const SITE: Site = {
   title: "ADSO",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
-  postPerPage: 3,
+  postPerPage: 8,
   scheduledPostMargin: 60 * 60 * 1000, // 60 minutes
 };
 

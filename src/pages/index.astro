@@ -59,6 +59,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         <LinkButton
           className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
           href="https://github.com/Andeveling/adso-blog#readme"
+          target="_blank"
         >
           README
         </LinkButton> para más detalles.
@@ -67,7 +68,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
-            <div class="social-links">Social Links:</div>
+            <div class="social-links">Redes sociales:</div>
             <Socials />
           </div>
         )
@@ -80,7 +81,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       featuredPosts.length > 0 && (
         <>
           <section id="featured">
-            <h2>Featured</h2>
+            <h2>Destacados</h2>
             <ul>
               {featuredPosts.map(({ data, slug }) => (
                 <Card
@@ -99,7 +100,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     {
       recentPosts.length > 0 && (
         <section id="recent-posts">
-          <h2>Recent Posts</h2>
+          <h2>Articulos Recientes</h2>
           <ul>
             {recentPosts.map(
               ({ data, slug }, index) =>
