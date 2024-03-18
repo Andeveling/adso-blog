@@ -3,7 +3,7 @@ author: Andres Parra
 pubDatetime: 2024-03-08T05:17:41.816Z
 title: "Fundamentos de JavaScript I: Una Introducción para Principiantes"
 slug: "fundamentos-de-javascript-I"
-featured: true
+featured: false
 draft: false
 tags:
   - JavaScript

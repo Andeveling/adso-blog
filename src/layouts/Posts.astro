@@ -17,9 +17,9 @@ export interface Props {
 const { currentPage, totalPages, paginatedPosts } = Astro.props;
 ---
 
-<Layout title={`Posts | ${SITE.title}`}>
+<Layout title={`Artículos | ${SITE.title}`}>
   <Header activeNav="posts" />
-  <Main pageTitle="Posts" pageDesc="Todos los articulos publicados.">
+  <Main pageTitle="Posts" pageDesc="Todos los artículos publicados.">
     <ul>
       {
         paginatedPosts.map(({ data, slug }) => (

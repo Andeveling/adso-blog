@@ -3,7 +3,7 @@ author: Andres Parra
 pubDatetime: 2024-03-08T17:48:00-05:00
 title: "Fundamentos de JavaScript III: Tipo de Dato number en JavaScript"
 slug: "tipo-number"
-featured: true
+featured: false
 draft: false
 tags:
   - JavaScript

@@ -3,7 +3,7 @@ author: Andres Parra
 pubDatetime: 2024-03-08T17:17:41.816Z
 title: "Fundamentos de JavaScript II: Var vs. Let vs. Const: Entendiendo las Diferencias en JavaScript"
 slug: "fundamentos-de-javascript-II"
-featured: true
+featured: false
 draft: false
 tags:
   - JavaScript

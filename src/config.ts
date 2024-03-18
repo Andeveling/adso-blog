@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://adso-blog.vercel.app/", // replace this with your deployed domain
   author: "Fabian Andres Parra Sanchez",
   desc: "Blog para el registro del aprendizaje de la carrera de Análisis y Desarrollo de Software.",
-  title: "ADSO Blog",
+  title: "ADSO",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 8,
