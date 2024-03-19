@@ -1,6 +1,6 @@
 ---
 author: Andres Parra
-pubDatetime: 2024-03-08T05:17:41.816Z
+pubDatetime: 2024-03-18T12:17:41.816Z
 title: "Diseño de Base de Datos: Modelo Entidad-Relación para un Sistema de Control de Vuelos"
 slug: "diseno-de-base-de-datos-modelo-entidad-relacion-sistema-control-vuelos"
 featured: true
@@ -40,7 +40,7 @@ El diseño de una base de datos comienza con la identificación de las entidades
 
 ## Relaciones
 
-Una vez identificadas las entidades y sus atributos, establecemos las relaciones entre ellas. Las reglas de gestión nos indican cómo se relacionan las entidades en el contexto del sistema de control de vuelos. Algunas de las relaciones clave incluyen:
+3. Una vez identificadas las entidades y sus atributos, establecemos las relaciones entre ellas. Las reglas de gestión nos indican cómo se relacionan las entidades en el contexto del sistema de control de vuelos. Algunas de las relaciones clave incluyen:
 
 - Entre Aeropuerto y Modelo de Avión: Relación de que en cada aeropuerto pueden tomar tierra diversos modelos de aviones.
 - Entre Aeropuerto y Programa de Vuelo: Relación de que en cada aeropuerto existe una colección de programas de vuelo.
@@ -53,5 +53,7 @@ Una vez identificadas las entidades y sus atributos, establecemos las relaciones
 ## Conclusión
 
 El diseño de una base de datos utilizando el modelo entidad-relación es un proceso fundamental en el desarrollo de sistemas de información. Al comprender las reglas de gestión y las necesidades del sistema, podemos crear una estructura de datos que refleje con precisión el dominio del problema y permita una gestión eficiente de la información en el sistema de control de vuelos.
+
+Para la elaboración del modelo use la app web https://app.diagrams.net/
 
 ![Modelo entidad Relación](https://res.cloudinary.com/dg84upfsp/image/upload/v1710785999/adso-blog/tak4pmyoa3adkvmgedvm.jpg "Modelo entidad Relación")
